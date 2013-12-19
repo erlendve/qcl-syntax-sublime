@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>qcl</string>
+	</array>
+	<key>name</key>
+	<string>QCL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c++</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>-&gt;|&lt;-</string>
+			<key>name</key>
+			<string>keyword.other.qcl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\blocal\b</string>
+			<key>name</key>
+			<string>storage.modifier.qcl</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.qcl</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.function.qcl</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.parameters.begin.qcl</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter.function.qcl</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.parameters.end.qcl</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>\b(function)\s+([a-zA-Z_$]\w*)?\s*(\()(.*?)(\))</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.qcl</string>
+	<key>uuid</key>
+	<string>b14d0110-5350-46d4-9d0c-3c1e0f2cae60</string>
+</dict>
+</plist>

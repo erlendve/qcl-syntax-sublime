@@ -1,0 +1,24 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: QCL
+scopeName: source.qcl
+fileTypes: [qcl]
+uuid: b14d0110-5350-46d4-9d0c-3c1e0f2cae60
+
+patterns:
+- include: source.c++
+
+- match: ->|<-
+  name: keyword.other.qcl
+
+- match: \blocal\b
+  name: storage.modifier.qcl
+
+- match: \b(function)\s+([a-zA-Z_$]\w*)?\s*(\()(.*?)(\))
+  captures:
+    '1': {name: entity.name.function.qcl}
+    '2': {name: storage.type.function.qcl}
+    '3': {name: punctuation.parameters.begin.qcl}
+    '4': {name: variable.parameter.function.qcl}
+    '5': {name: punctuation.definition.parameters.end.qcl}
+...
