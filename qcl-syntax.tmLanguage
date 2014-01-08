@@ -173,7 +173,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>\b(function)\s+([a-zA-Z_$]\w*)?\s*(\()([^&amp;]*?)(\))</string>
+					<string>\b(function)\s+([a-zA-Z_$]\w*)?\s*(\()([&amp;a-zA-Z_$]*?)(\))</string>
 				</dict>
 			</array>
 		</dict>

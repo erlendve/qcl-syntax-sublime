@@ -70,7 +70,7 @@ repository:
       name: comment.line.double-slash.qcl
   functions:
     patterns:
-    - match: \b(function)\s+([a-zA-Z_$]\w*)?\s*(\()([^&]*?)(\))
+    - match: \b(function)\s+([a-zA-Z_$]\w*)?\s*(\()([&a-zA-Z_$]*?)(\))
       captures:
         '1': {name: storage.type.function.qcl}
         '2': {name: entity.name.function.qcl}
