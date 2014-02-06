@@ -11,3 +11,6 @@ Current features:
   - This means: Use " for normal strings, and ' when writing html
 - Generate StrAppend snippet by writing "stra" and pressing tab (to autocomplete)
 - Supports highlighting of a lot of common QCL specific functions like: obj->Contains, obj->FramedBy etc.
+
+Here is an example screenshot of some qcl code with additional html in '' strings:  
+![ss of sublime with qcl and html code](/sublimescreenshot.jpg)
