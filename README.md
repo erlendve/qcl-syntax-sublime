@@ -12,5 +12,5 @@ Current features:
 - Generate StrAppend snippet by writing "stra" and pressing tab (to autocomplete)
 - Supports highlighting of a lot of common QCL specific functions like: obj->Contains, obj->FramedBy etc.
 
-Here is an example screenshot of some qcl code with additional html in '' strings:  
+Here is a screenshot of some qcl code, notice the html in single quoted strings:  
 ![ss of sublime with qcl and html code](/sublimescreenshot.jpg)
