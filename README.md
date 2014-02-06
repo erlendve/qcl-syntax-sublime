@@ -9,5 +9,5 @@ Current features:
 - Highlights specific qcl symbols like: -> and -<
 - Special feature: text inside single quotes are highlighted as html.
   - This means: Use " for normal strings, and ' when writing html
-- Generate StrAppend snippet by writing "stra" and pressing the tab (to autocomplete)
+- Generate StrAppend snippet by writing "stra" and pressing tab (to autocomplete)
 - Supports highlighting of a lot of common QCL specific functions like: obj->Contains, obj->FramedBy etc.
