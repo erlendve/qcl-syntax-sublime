@@ -45,7 +45,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(ShortDescription|Description|Contains|ContainedIn|Frames|FramedBy|Overlaps|From|To|Sends|Receives|SendsTo|ReceivesFrom|Links|LinkedBy|Thru|Passes|Name|HyperName|Template|ObjID|RevisionID|Profile|HTMLFile)\b</string>
+					<string>\b(ShortDescription|Description|Contains|ContainedIn|Frames|FramedBy|Overlaps|From|To|Sends|Receives|SendsTo|ReceivesFrom|Links|LinkedBy|Thru|Passes|Name|HyperName|Template|ObjID|RevisionID|Profile|HTMLFile|HasOutput|HasInput|AssociatedWith|BreaksDownTo|VisualisedBy|HasResponsible|AuditMN|ApprovalChangedBy|ParagraphText|RegulationName|StrategicAlignment|Paragraph|Text|)\b</string>
 					<key>name</key>
 					<string>support.constant.qcl</string>
 				</dict>
