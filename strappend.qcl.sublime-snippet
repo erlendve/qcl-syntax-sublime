@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+StrAppend(str, '${2:text/html}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>stra</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.qcl</scope>
+</snippet>
